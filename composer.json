@@ -1,0 +1,27 @@
+{
+    "name": "dongyu/container",
+    "type": "library",
+    "authors": [
+        {
+            "name": "dongyu",
+            "email": "357263020@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dongyu\\Container\\":"./src/Container"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dongyu\\Tests\\":"./tests"
+        }
+    }
+}
